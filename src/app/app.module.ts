@@ -19,13 +19,25 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatListModule} from '@angular/material/list';
 import { FormsModule } from '@angular/forms';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
+import { AddComponent } from './components/student/add/add.component';
+import { StudentsComponent } from './components/student/students/students.component';
+import { CoursesComponent } from './components/course/courses/courses.component';
+import { SectionsComponent } from './components/section/sections/sections.component';
+import { SubjectsComponent } from './components/subject/subjects/subjects.component';
+import { TeachersComponent } from './components/teacher/teachers/teachers.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    ToolbarComponent
+    ToolbarComponent,
+    AddComponent,
+    StudentsComponent,
+    CoursesComponent,
+    SectionsComponent,
+    SubjectsComponent,
+    TeachersComponent
   ],
   imports: [
     BrowserModule,HttpClientModule,ReactiveFormsModule,FormsModule, 
